@@ -5,9 +5,7 @@ Provide a way to show local videos and images in the phone, also support single-
 
 本地图片和视频数据的获取和封装，可以完全自由定制化自己的UI，后续将继续优化加载速度和选择状态，先简单看一下目前的效果图：
 
-![](https://github.com/Moosphan/LocalVideoImage-selector/blob/3cbf292479abbfb79912e252b4f68152a61dca59/LocalMediaSelector/image/art_select_image.png)
-
-![](https://github.com/Moosphan/LocalVideoImage-selector/blob/3cbf292479abbfb79912e252b4f68152a61dca59/LocalMediaSelector/image/art_select_video.png)
+![](https://github.com/Moosphan/LocalVideoImage-selector/blob/3cbf292479abbfb79912e252b4f68152a61dca59/LocalMediaSelector/image/art_select_image.png)     ![](https://github.com/Moosphan/LocalVideoImage-selector/blob/3cbf292479abbfb79912e252b4f68152a61dca59/LocalMediaSelector/image/art_select_video.png)
 
 
 
