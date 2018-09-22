@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    tools:context=".ui.MainActivity">
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/btn_image_select"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?android:selectableItemBackgroundBorderless"
+            android:src="@drawable/image_icon"
+            android:padding="8dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="选择图片"
+            android:textSize="14sp"
+            android:textColor="#666666"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/btn_video_select"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?android:selectableItemBackgroundBorderless"
+            android:src="@drawable/video_icon"
+            android:padding="8dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="选择视频"
+            android:textSize="14sp"
+            android:textColor="#666666"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
